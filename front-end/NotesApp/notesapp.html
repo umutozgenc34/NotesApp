@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f8f9fa; }
+        .note { 
+            background: #ffffff; 
+            border: 1px solid #ddd; 
+            border-radius: 5px; 
+            padding: 15px; 
+            margin-bottom: 10px; 
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+        }
+        .note h3 { margin: 0; font-size: 1.5rem; }
+        .note p { font-size: 1rem; color: #6c757d; }
+        .btn { margin-right: 5px; }
+        form { 
+            margin-top: 20px; 
+            padding: 15px; 
+            background: #ffffff; 
+            border-radius: 5px; 
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+        }
+        form input, form textarea, form button {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center text-primary my-4">Notes App</h1>
+        <div id="notes" class="row"></div>
+        <form id="noteForm" class="mt-4">
+            <input type="hidden" id="noteId">
+            <div class="mb-3">
+                <label for="noteTitle" class="form-label">Title</label>
+                <input type="text" class="form-control" id="noteTitle" placeholder="Title" required>
+            </div>
+            <div class="mb-3">
+                <label for="noteContent" class="form-label">Content</label>
+                <textarea class="form-control" id="noteContent" placeholder="Content" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Save Note</button>
+        </form>
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="app.js"></script>
+</body>
+</html>

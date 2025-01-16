@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotesApp.Model", "NotesApp.Model\NotesApp.Model.csproj", "{9E9232A3-8A6C-4DFE-AD0E-69ABA8217D42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotesApp.Model", "NotesApp.Model\NotesApp.Model.csproj", "{9E9232A3-8A6C-4DFE-AD0E-69ABA8217D42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotesApp.Repository", "NotesApp.Repository\NotesApp.Repository.csproj", "{F4942594-A457-478E-A505-444C9F55A460}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotesApp.Repository", "NotesApp.Repository\NotesApp.Repository.csproj", "{F4942594-A457-478E-A505-444C9F55A460}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotesApp.Service", "NotesApp.Service\NotesApp.Service.csproj", "{54F57CAF-A045-419B-A0B3-5E78ED8C0BF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotesApp.Service", "NotesApp.Service\NotesApp.Service.csproj", "{54F57CAF-A045-419B-A0B3-5E78ED8C0BF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotesApp.Api", "NotesApp.Api\NotesApp.Api.csproj", "{EA40B174-E807-4438-828B-1C2BC4DF8B6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotesApp.Api", "NotesApp.Api\NotesApp.Api.csproj", "{EA40B174-E807-4438-828B-1C2BC4DF8B6F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
